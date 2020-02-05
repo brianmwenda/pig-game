@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,600" type="text/css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+    <link rel='stylesheet' href='game.css'>
+    <title>pig game</title>
+</head>
+
+<body>
+
+  <section>
+   <div class = 'wrapper clearfix'>
+    
+     <a href="#" class='btn-new'><i class='ion-ios-plus-outline'></i><img class="n" src="newgame.png"><br>New game</a>
+     
+        <div class ='player-0-panel active'>
+                <div class = 'player-name' id='name-0'>player 1</div>
+                <div class = 'player-score' id='score-0'>43</div>
+                <div class = 'player-current-box'>
+                    <div class = 'player-current-label'>current</div>
+                    <div class = 'player-current-score' id = 'current-0'>11</div>
+
+                </div>
+        </div>
+    </div>
+    <img src="dice 5.png" alt="Dice" id="dice">
+
+<div class = 'player-1-panel'>
+    <div class = 'player-name' id = 'name-1'>player 2</div>
+    <div class = 'player-score'id = 'score-1'>72</div>
+    <div class = 'player-current-box'>
+        <div class= 'player-current-label'>current</div>
+        <div class = 'player-current-score' id = 'current-1'>0</div>
+    </div>
+
+
+
+
+    <a href="#" class='btn-roll'><i class='ion-ios-loop'></i><img class="r" src="rolldice.png"><br>Roll dice</a>
+    <a href="#" class='btn-hold'><i class='ion-ios-download-outline'></i><img class="h" src="holddown.png"><br>Hold</a><br><br><br>
+    <input type="text" placeholder = "final score" class = 'final-score'/>
+</div>
+
+
+
+</section>
+
+
+
+
+<script src='script.js'></script>
+</body>
+</html>

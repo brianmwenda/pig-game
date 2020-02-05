@@ -1,0 +1,144 @@
+body{
+  background-image:url('b.jpg');
+  color:white;
+  opacity: 70%;
+  background-size: cover;
+
+}
+#dice{
+  width:100px;
+  height:100px;
+  position: absolute;
+  left:47.5%;
+  transform: translateX(-50%);
+  top:10em;
+  border:2px;
+  border-radius: 10%;
+}
+.n{
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  border-radius: 30%;
+  margin-left:20%;
+}
+.n:hover{
+  opacity: 60%;
+}
+.r{
+  width: 20px;
+  height: 20px;
+  border: 1px;
+  border-radius: 30%;
+  margin-left:35%;
+}
+.r:hover{
+  opacity: 60%;
+}
+.h{
+  border: 1px;
+  border-radius: 30%;
+  width: 20px;
+  height: 20px;
+  margin-left:25%;
+}
+.h:hover{
+  opacity: 60%;
+}
+
+
+section{
+    background-image:url('shoes.jpg');
+   
+    background-repeat: repeat;
+
+    z-index: -3000;
+  display: flex;
+  flex-direction: row;
+  position:absolute;
+  top:15%;
+  transform:translateY(-50%);
+  left:50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  height: 500px;
+ box-shadow: black 0 0 10px;
+}
+.wrapper{
+  width:500px;
+
+}
+.player-1-panel{
+  width: 500px;
+  display: inline-block;
+
+}
+.player-name{
+  font-size: 30px;
+  text-transform: uppercase;
+   margin-left: 35%;
+   margin-top:2em;
+}
+.player-score{
+  color:red;
+  font-size: 50px;
+   margin-left: 40%;
+}
+.btn-new{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  position:absolute;
+  left:43%;
+  top:10%;
+}
+.btn-new:hover{
+  color:gray;
+}
+.player-current-box{
+
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 40%;
+  margin-top:10em;
+
+}
+.player-current-label{
+  color:gray;
+}
+.player-current-score{
+    color:red;
+  margin-left:15%;
+
+}
+.btn-roll{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white;
+  position: absolute;
+  left:44%;
+  top:70%;
+
+}
+.btn-roll:hover{
+  color:gray;
+}
+.btn-hold{
+  text-transform: uppercase;
+  color:white;
+  text-decoration: none;
+  position: absolute;
+  left:46%;
+  top:80%;
+
+}
+.btn-hold:hover{
+  color:gray;
+}
+.final-score{
+  text-transform: uppercase;
+  color:white;
+  text-decoration: none;
+  margin-left:-20%;
+
+}
