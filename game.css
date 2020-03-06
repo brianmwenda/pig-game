@@ -198,7 +198,7 @@ html{
     display: flex;
     flex-direction: row;
     position:absolute;
-    top:45%;
+    top:2%;
     transform:translateY(-50%);
     left:50%;
     transform: translateX(-50%);
@@ -453,7 +453,7 @@ display: none;
     text-transform: uppercase;
     color:white;
 
-    margin-left:-13em;
+    margin-left:-17em;
     margin-top:-60%;
 
   }
@@ -462,7 +462,7 @@ display: none;
     text-transform: uppercase;
     font-size: 15px;
     margin-left: 10%;
-    margin-top:5em;
+    margin-top:9em;
 
   }
   .player-current-label{
@@ -523,6 +523,22 @@ display: none;
   }
   .alert a{
     font-size: 13.5px;
+
+  }
+  .final-score{
+    text-transform: uppercase;
+    color:white;
+
+    margin-left:-17em;
+    margin-top:-60%;
+
+  }
+  .player-current-box{
+
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top:9em;
 
   }
 }
