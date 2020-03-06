@@ -1,4 +1,4 @@
-body{
+/*body{
   background-image:url('b.jpg');
   color:white;
   opacity: 70%;
@@ -49,7 +49,7 @@ body{
 
 section{
     background-image:url('shoes.jpg');
-   
+
     background-repeat: repeat;
 
     z-index: -3000;
@@ -140,5 +140,550 @@ section{
   color:white;
   text-decoration: none;
   margin-left:-20%;
+
+}*/
+
+/*alert messege dialogue*/
+/*.alert{
+  background-color:black;
+  color:white;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:50%;
+  transform: translateY(-50%);
+}
+.alert a{
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+}
+.closebtn{
+
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+  cursor:pointer;
+  transition: 0.3s;
+}
+.closebtn:hover{
+  color:black;
+}*/
+/*responsive */
+*{
+  height: auto;
+}
+html{
+  overflow: hidden;
+  height: 100%;
+}
+@media   (min-width:100px){
+
+  body{
+    background-image:url('b.jpg');
+    background-repeat: no-repeat;
+    color:white;
+    opacity: 70%;
+    background-size:cover;
+    height: 100%;
+
+
+  }
+  section{
+      background-image:url('shoes.jpg');
+
+      background-repeat: repeat;
+
+      z-index: -3000;
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    top:9%;
+    transform:translateY(-50%);
+    left:50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    height: 250px;
+
+   box-shadow: black 0 0 10px;
+  }
+  .wrapper{
+    width:300px;
+
+  }
+  .n{
+display: none;
+  }
+  .ion-ios-loop{
+    margin-left: 40%;
+  }
+  .ion-ios-download-outline{
+    margin-left: 40%;
+  }
+  .ion-ios-plus-outline{
+      margin-left: 40%;
+  }
+  .r{
+  display: none;
+  }
+
+  .h{
+    display: none;
+  }
+  #dice{
+    width:50px;
+    height:50px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+
+    border:2px;
+    border-radius: 10%;
+  }
+
+  .btn-new{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    position:absolute;
+
+    left:50%;
+    transform: translateX(-50%);
+    top:20%;
+  }
+  .btn-new:hover{
+    color:gray;
+  }
+  .btn-roll{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:40%;
+
+  }
+  .btn-roll:hover{
+    color:gray;
+  }
+  .btn-hold{
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:55%;
+
+  }
+  .btn-hold:hover{
+    color:gray;
+  }
+  .final-score{
+    text-transform: uppercase;
+    color:black;
+
+    margin-left:-14em;
+
+
+  }
+  .player-current-box{
+
+    text-transform: uppercase;
+    font-size: 13px;
+    
+    margin-top:5em;
+
+  }
+  .player-current-label{
+    color:gray;
+  }
+  .player-current-score{
+      color:red;
+
+
+  }
+  .player-score{
+    color:red;
+    font-size: 50px;
+     margin-left: 15%;
+  }
+  .player-name{
+    font-size: 10px;
+    text-transform: uppercase;
+
+
+  }
+  .alert{
+
+    background-color:black;
+    color:white;
+    position: absolute;
+    height: 80%;
+
+    left:5%;
+    transform: translateX(-50%);
+    top:50%;
+    transform: translateY(-50%);
+  }
+  .alert a{
+    font-size: 10px;
+
+  }
+  .closebtn{
+    float: right;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    cursor:pointer;
+    transition: 0.3s;
+  }
+  .closebtn:hover{
+    color:black;
+  }
+
+}
+
+@media   (min-width:568px){
+
+  body{
+    background-image:url('b.jpg');
+    background-repeat: no-repeat;
+    color:white;
+    opacity: 70%;
+    background-size:cover;
+    height: 100%;
+
+
+  }
+  section{
+      background-image:url('shoes.jpg');
+
+      background-repeat: repeat;
+
+      z-index: -3000;
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    top:9%;
+    transform:translateY(-50%);
+    left:50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    height: 300px;
+
+   box-shadow: black 0 0 10px;
+  }
+  .wrapper{
+    width:400px;
+
+
+  }
+  .n{
+display: none;
+  }
+  .ion-ios-loop{
+    margin-left: 40%;
+  }
+  .ion-ios-download-outline{
+    margin-left: 40%;
+  }
+  .ion-ios-plus-outline{
+      margin-left: 40%;
+  }
+  .r{
+  display: none;
+  }
+
+  .h{
+    display: none;
+  }
+  #dice{
+    width:50px;
+    height:50px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+
+    border:2px;
+    border-radius: 10%;
+  }
+
+  .btn-new{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    position:absolute;
+
+    left:50%;
+    transform: translateX(-50%);
+    top:20%;
+  }
+  .btn-new:hover{
+    color:gray;
+  }
+  .btn-roll{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:40%;
+
+  }
+  .btn-roll:hover{
+    color:gray;
+  }
+  .btn-hold{
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:60%;
+
+  }
+  .btn-hold:hover{
+    color:gray;
+  }
+  .final-score{
+    text-transform: uppercase;
+    color:white;
+
+    margin-left:-13em;
+    margin-top:-60%;
+
+  }
+  .player-current-box{
+
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top:5em;
+
+  }
+  .player-current-label{
+    color:gray;
+  }
+  .player-current-score{
+      color:red;
+
+
+  }
+  .player-score{
+    color:red;
+    font-size: 50px;
+     margin-left: 15%;
+  }
+  .player-name{
+    font-size: 25px;
+    text-transform: uppercase;
+
+
+  }
+  .alert{
+
+    background-color:black;
+    color:white;
+    position: absolute;
+    height: 80%;
+    left:5%;
+    transform: translateX(-50%);
+    top:50%;
+    transform: translateY(-50%);
+  }
+  .alert a{
+    font-size: 11.5px;
+
+  }
+  .closebtn{
+    float: right;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    cursor:pointer;
+    transition: 0.3s;
+  }
+  .closebtn:hover{
+    color:black;
+  }
+
+}
+@media   (min-width:630px){
+  .alert{
+    left:10%;
+  }
+}
+@media   (min-width:700px){
+  .alert{
+    left:10%;
+  }
+  .alert a{
+    font-size: 13.5px;
+
+  }
+}
+@media   (min-width:740px){
+  .wrapper{
+    width: 400px;
+  }
+  .final-score{
+    margin-left:-17em;
+  }
+  .alert{
+    left:4.5%;
+  }
+  .alert a{
+    font-size: 15px;
+
+  }
+  section{
+
+    height: 500px;
+
+  }
+  .final-score{
+    text-transform: uppercase;
+    color:white;
+
+    margin-left:-17em;
+
+
+  }
+  .player-current-box{
+
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top:15em;
+
+  }
+}
+@media  (min-width:800px){
+  .wrapper{
+    width: 600px;
+  }
+  .final-score{
+    margin-left:-20em;
+  }
+  .alert a{
+    font-size: 17px;
+
+  }
+  .alert{
+    height: 90%;
+  }
+  section{
+
+    height: 600px;
+
+  }
+  .final-score{
+    text-transform: uppercase;
+    color:white;
+
+    margin-left:-24em;
+
+
+  }
+  .player-current-box{
+
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top:15em;
+
+  }
+}
+@media  (min-width:900px){
+  .alert{
+    left:10%;
+  }
+  .alert a{
+    font-size: 18px;
+
+  }
+  .wrapper{
+    width: 700px;
+
+  }
+  section{
+
+    height: 600px;
+
+  }
+  .final-score{
+    text-transform: uppercase;
+    color:white;
+
+    margin-left:-28em;
+
+
+  }
+  .player-current-box{
+
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top:15em;
+
+  }
+}
+@media   (min-width:1000px){
+  .alert{
+    left:10%;
+  }
+  .alert a{
+    font-size: 19px;
+
+  }
+}
+@media   (min-width:1100px){
+  .alert{
+    left:15%;
+    height: 95%;
+  }
+  .alert a{
+    font-size: 20px;
+
+  }
+}
+@media   (min-width:1500px){
+  .alert{
+    left:25%;
+    height: 95%;
+  }
+  .alert a{
+    font-size: 20px;
+
+  }
+  .wrapper{
+    width: 900px;
+
+  }
+  section{
+
+    height: 600px;
+
+  }
+  .final-score{
+    text-transform: uppercase;
+    color:white;
+
+    margin-left:-35em;
+
+
+  }
+  .player-current-box{
+
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top:15em;
+
+  }
 
 }
