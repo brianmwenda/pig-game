@@ -110,7 +110,7 @@ function gamePlay_2() {
             gamePlaying = false;
         } else {
             //Next player
-            
+            alert("next player's turn") ;
             nextPlayer();
         }
     }
