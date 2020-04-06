@@ -37,7 +37,7 @@ function gamePlay_1(){
 
             } else {
                 //Next player
-                alert("your turn is up:next player");
+                alert("your turn is up you rolled 0 next player");
                 setTimeout(nextPlayer,500);
             }
         }
