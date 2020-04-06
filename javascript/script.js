@@ -37,7 +37,8 @@ function gamePlay_1(){
 
             } else {
                 //Next player
-                setTimeout(nextPlayer,1000);
+                alert("your turn is up:next player");
+                setTimeout(nextPlayer,500);
             }
         }
     }
