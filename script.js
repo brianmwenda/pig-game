@@ -72,6 +72,7 @@ function compPlay(){
             return dice_values;
             
     }
+alert("your turn") ;
 }
 
 
@@ -86,7 +87,7 @@ function gamePlay_2() {
 
         // Update the UI
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
-         alert("next player") ;
+         
 
         // to set custom winning score. YESKO LAGI SEPERATE UI OF POP UP TYPE.
         var input = document.querySelector('.final-score').value;
@@ -110,6 +111,7 @@ function gamePlay_2() {
             gamePlaying = false;
         } else {
             //Next player
+             alert("next player") ;
             nextPlayer();
         }
     }
