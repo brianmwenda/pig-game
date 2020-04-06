@@ -1,5 +1,5 @@
 /*body{
-  background-image:url('b.jpg');
+  background-image:url('../b.jpg');
   color:white;
   opacity: 70%;
   background-size: cover;
@@ -48,7 +48,7 @@
 
 
 section{
-    background-image:url('shoes.jpg');
+    background-image:url('../shoes.jpg');
 
     background-repeat: repeat;
 
