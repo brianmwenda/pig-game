@@ -178,3 +178,109 @@ function init() {
     document.querySelector('.player-1-panel').classList.remove('active');  // remove active status from player-1
     document.querySelector('.player-0-panel').classList.add('active');  ///add active status to player-0
 }
+/******************
+        ****** Game js*/
+/* var scores, roundScores,activePlayer,gamePlaying;
+
+init();
+var lastDice;
+document.querySelector('#dice').style.display = 'none';
+
+document.querySelector('.btn-roll').addEventListener('click',function(){
+    if(gamePlaying){
+          //random no
+    var dice = Math.floor(Math.random()*6)+1;
+    //display results
+    var diceDOM = document.querySelector('#dice');
+    diceDOM.style.display = 'block'
+    diceDOM.src = 'dice ' + dice + '.png';
+
+    document.querySelector('#current-'+ activePlayer).textContent = dice;
+
+    //update the round score if the rolled no isnt a 1
+
+     if(dice == 6 && lastDice == 6) {
+        scores[activePlayer]=0;
+        document.querySelector('#score-'+ activePlayer).textContent = '0';
+        nextPlayer();
+     }
+    else if(dice > 1){
+        roundScores+=dice;
+        document.querySelector('#current-'+ activePlayer).textContent = roundScores;
+
+    }
+    else{
+        nextPlayer();
+    }
+    lastDice = dice;
+}
+
+
+});
+document.querySelector('.btn-hold').addEventListener('click',function(){
+    if(gamePlaying){
+        scores[activePlayer]+=roundScores;
+
+        document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
+
+        var input = document.querySelector(".final-score").value
+        if(input){
+            var winningScore = input;
+        } else{
+            winningScore = 100;
+        }
+        if(scores[activePlayer] >= winningScore ){
+          document.querySelector('#name-' + activePlayer).textContent='winner!';
+          style();
+          document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
+          document.querySelector('.player-' + activePlayer + '-panel').classList.remove('winner');
+            gamePlaying = false;
+        }
+        else{
+            nextPlayer();
+        }
+
+    }
+
+
+})
+
+function nextPlayer(){
+    activePlayer === 0? activePlayer=1:activePlayer=0;
+    roundScores = 0;
+
+
+    document.getElementById('current-0').textContent='0';
+     document.getElementById('current-1').textContent='0';
+
+     document.querySelector('.player-0-panel').classList.remove('active');
+     document.querySelector('.player-comp-panel').classList.add('active');
+
+
+}
+
+document.querySelector('.btn-new').addEventListener('click',function(){
+    document.querySelector('#name-' + activePlayer).style.color='blue';
+    init();
+
+})
+function init(){
+    gamePlaying = true;
+    scores = [0,0];
+    roundScores =0;
+    activePlayer = 0;
+
+
+document.getElementById('score-0').textContent='0';
+document.getElementById('score-1').textContent='0';
+document.getElementById('current-0').textContent='0';
+document.getElementById('current-1').textContent='0';
+document.querySelector('#name-0').textContent='player1';
+document.querySelector('#name-1').textContent='player2';
+
+}
+function style(){
+    document.querySelector('#name-' + activePlayer).style.color='red';
+
+}
+*/
